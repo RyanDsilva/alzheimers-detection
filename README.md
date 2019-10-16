@@ -26,11 +26,14 @@ python alzheimers_pred.py
 - Transfer Learning on Resnet152
 - Trained for 5+10 epochs
 
+> More `epochs`, `data_transforms` may improve results.
+> Various models can be tried. `RESNETxx` would be the best choice.
+
 ![ResNet152](./assets/resnet152.png)
 
 ## Results ✨
 
-- Accuracy of ** ~ 80% **.
+- Accuracy of ~ 80%.
 
 ### Confusion Matrix:
 
