@@ -30,7 +30,7 @@ python alzheimers_pred.py
 
 ## Results ✨
 
-### Accuracy of **~ 80%**.
+- Accuracy of ** ~ 80% **.
 
 ### Confusion Matrix:
 
