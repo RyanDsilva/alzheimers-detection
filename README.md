@@ -18,22 +18,21 @@ python alzheimers_pred.py
 
 > OR
 
-### Use the pretrained model from `models/alzheimers.pkl`
+#### Use the pretrained model from `models/alzheimers.pt`
 
 ## Approach 📑
 
 - Use of OASIS dataset considering the three scan angles as individual truth thus expanding the dataset by 3x.
-- Transfer Learning on Resnet152
-- Trained for 5+10 epochs
+- Transfer Learning on DenseNet201
+- Trained for 5+25 epochs
 
 > More `epochs`, `data_transforms` may improve results.
-> Various models can be tried. `RESNETxx` would be the best choice.
 
-![ResNet152](./assets/resnet152.png)
+![DenseNet201](./assets/densenet201.png)
 
 ## Results ✨
 
-- Accuracy of ~ 80%.
+- Accuracy of ~ 81%.
 
 ### Confusion Matrix:
 
